@@ -1,0 +1,93 @@
+.controls {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.player {
+    margin: 0 auto;
+    width: 1300px;
+}
+
+.select {
+    margin: 0 auto;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.selector {
+    padding-top: 5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+
+.selector:hover {
+    background: #3f51b5;
+}
+
+.arrow:hover {
+    color: #3f51b5;
+    cursor: pointer;
+}
+
+.block {
+    background: silver;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 1100px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.block_image {
+    width: 250px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+    border: 8px solid white;
+    height: auto;
+}
+
+.text-block {
+    border-radius: 20px;
+    background: white;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: 30px;
+    width: 400px;
+    height: 460px;
+    overflow: auto;
+    border: 1px solid black;
+}
+
+.text_audio {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.audio {
+    display: block;
+}
+
+.image-container {
+    width: 600px;
+    height: 400px;
+}
+
+.actor {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0;
+}
